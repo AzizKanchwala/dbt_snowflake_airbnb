@@ -38,3 +38,10 @@ Try running the following commands:
 ## Tests
 - Singular tests are SQL queries stored in tests which are expected to return an empty resultset.
 - 4 built-in generic tests (Unique, not null, accepted values, relationships)
+
+## Macros
+- For implementing our own generic tests
+- Find and install third party dbt packages.
+- Jinja templates created in the macros folder.
+- Can be used in model definitions and tests
+- A special macro, called test, can be used for implementing custom generic tests
