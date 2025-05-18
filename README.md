@@ -30,3 +30,11 @@ Try running the following commands:
 
 ## Freshness
 - Check if the data is stale or not
+
+## Snapshots
+- How dbt handles Type 2 SCD
+- 2 strategies (Timestamp and Check)
+
+## Tests
+- Singular tests are SQL queries stored in tests which are expected to return an empty resultset.
+- 4 built-in generic tests (Unique, not null, accepted values, relationships)
