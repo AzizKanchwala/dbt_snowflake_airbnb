@@ -22,3 +22,11 @@ Try running the following commands:
 
 ## Materializations:
 - Four materializations (View, Table, Incremental, CTEs)
+
+## Seeds and Sources
+- Seeds are local files that you upload to the data warehouse from dbt
+- Sources is an abstraction layer on top of your input tables
+- Source freshness can be checked automatically.
+
+## Freshness
+- Check if the data is stale or not
