@@ -53,4 +53,6 @@ Try running the following commands:
 - on_run_start: Executed at the start of dbt {run, seed, snapshot}
 - on_run_end: Executed at the end of dbt {run, seed, snapshot}
 - pre-hook: Executed before a model/seed/snapshot is built
-- post-hook: Executed after a model/seed/snapshot is built 
+- post-hook: Executed after a model/seed/snapshot is built
+
+# Variables
