@@ -45,3 +45,12 @@ Try running the following commands:
 - Jinja templates created in the macros folder.
 - Can be used in model definitions and tests
 - A special macro, called test, can be used for implementing custom generic tests
+
+# Analyses
+- Adhoc queries which we may not want to include in our modelling
+
+# Hooks
+- on_run_start: Executed at the start of dbt {run, seed, snapshot}
+- on_run_end: Executed at the end of dbt {run, seed, snapshot}
+- pre-hook: Executed before a model/seed/snapshot is built
+- post-hook: Executed after a model/seed/snapshot is built 
